@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2? family= Crimson+Pro:wght@300 & family= Roboto+Slab:wght@700 & family= Space+Grotesk:wght@500 & mostrar=intercambiar');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    z-index: 10px;
+}
+body{    background-color: antiquewhite;
+}
+
+header{
+
+    background-color: rgba(0, 48, 96, 1);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+
+header ul{
+    background-color: red;
+    height: 40%;
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.1%;
+    padding: 0%
+}
+header li {
+    padding: 5px 10px;
+    border: solid 1px; color: rgba(0, 48, 96, 1); 
+
+}
+nav {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}nav a:hover{
+    color: rgb(255, 0, 0);
+}
+nav li:hover{
+    background-color: rgb(110, 202, 159);
+
+}
+
+header img{
+    height: 75px;
+    width: 80px;
+    margin: 5px 10px;
+    border-radius: 3px;
+}
+header img:hover{
+    background-color: rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
+}
+.index__tittle h1{
+    padding: 5% 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(219, 213, 213,);
+    font-style: oblique;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+  }
+  .index__tittle{
+    height: 533px;
+    background-image: url(../Images/Entrega-Paquetes.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.index__tittle p{
+    padding: 1%;
+    color: indigo;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255, 0.3);
+    text-shadow: 1px -1px 25px rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Pro', serif;
+}
+.margin-p{
+    margin-left: 20%;
+    padding: 14px;
+}
+.flex__one {
+    padding: 0%;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 123, 0, 0.849);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid rgb(255, 255, 255);
+}
+.flex__one_{
+    height: 32.5%;
+    display: flex;
+    align-items: flex-end;
+}
+.flex__one a{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-shadow: 1px -1px 25px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    padding: 5px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px  solid rgb(255, 255, 255);
+    text-align: center;
+
+}
+.flex__one a:hover{
+    background-color: aquamarine;
+    color: red;
+}
+.index__tittle{
+    background-color: rgb(255, 255, 255);
+}
+.carrusel__ancho{
+    width: 8%;
+    height: 8%;
+}
+.carrusel__ p{
+    font-size: 1rem;
+    line-height: 20%;
+}
+.carrusel__{
+    width: 50%;
+    float: left;
+    z-index: -1;
+}
+.main_tittle{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.main_tittle h1{
+    text-align: center;
+    background-color: red;
+    border-radius: 25px 45px;
+}
+.main_tittle p{
+    margin-top: 55px;
+    background-color: rgb(250, 192, 0);
+    color: rgba(255, 255, 255);
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main_tittle p:hover{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(250, 192, 0);
+    border-radius: 20%;
+}
+.ultimate {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+/*MAIN IMG RADIUS*/
+.radius__main h2{
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgb(0, 128, 255);
+    text-decoration: underline;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.radius__main h2:hover{
+    color: rgb(250, 192, 0);
+    background: rgb(255, 255, 255);
+ }
+.radius__img{
+    margin-top: 5%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.radius__img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.88);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.radius__p{
+    background-color: rgb(0, 119, 128);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.radius__p p{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.radius__parrafo{
+    background-color: rgb(0, 119, 128);
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.flex__main{
+    background-color: red;
+    display: flex;
+}
+
+/*-----------------MAPS*/
+.maps{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    width: 10%;
+ }
+.map__{
+    margin-left: 23%;
+
+}
+.maps__div{
+    display: flex;
+    flex-direction: column;
+
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    justify-content: top;
+    text-align: center;
+    padding-top: 20px;
+    float: none;
+}
+.map__ h4{
+    text-decoration: underline;
+    color: rgba(0, 48, 96, 1);
+}
+.map__ h4:hover{
+    color: rgba(255, 123, 0, 0.849);
+}
+.map__ div p{
+    line-height: 50px;
+    font-weight: bold;
+}
+.maps__img img{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255)
+}
+
+/*FINISH MAPS*/
+
+
+/*---------------FOOTER*/
+.fieldset__two{
+    background-image: url(Images/image.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+fieldset{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0px 10px;
+    
+}
+.footer__logo{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 14px;
+}
+.footer__logo a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.ultimate p {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.footer__redes{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 1em;
+}
+.ultimate__ {
+    background-color: aliceblue;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    margin-top: 100%;
+}
+.ultimate__ {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fieldset__two p{
+    margin-top: 10px;
+    align-items: center;
+}
+.fieldset__two div{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-items: center;
+}
+/*FINISH FOOTER*/   
+
+
+/*NOSOTROS*/
+
+/*NOSOTROS*/
+
+/* LO QUE ENSEÑA CLASE 4 GRID*/
+
+    /* nosotros */
+   
+    
+.contenedor-grid{
+
+        display: grid;
+        
+        grid-template-rows: 100px 150px repeat(2.300px) 100px;
+
+        grid-template-columns: 25% 40% 25%;
+
+        grid-template-areas:
+        "h1       h1           h1"
+        "casa1    texto1   texto1"
+        "casa1    casa2     casa2"
+        "texto2   casa3    texto3"
+        "h2       h2           h2";
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+        }
+
+.contenedor-grid img{
+        width: 100%;
+        height: 100%;
+    }
+
+.contenedor-grid p{
+        text-align: justify;
+        margin: 0 25px;
+        color: orange;
+        font-weight: 600;
+        
+    }
+    
+.grid-titulo-1{
+        grid-area: h1;
+        color: red;
+
+    }
+.grid-img-1{
+        grid-area: casa1;
+    }
+.grid-texto-1{
+        grid-area: texto1;
+        
+    
+    }
+.grid-img-3{ 
+        grid-area: casa2; 
+
+    }
+.grid-texto-2{ 
+        grid-area: texto2; 
+        
+    }
+.grid-img-2{ 
+        grid-area: casa3; 
+    }
+.grid-texto-3{ 
+        grid-area: texto3; 
+       
+}
+.grid-titulo-2{ 
+        grid-area: h2; 
+    }
+
+/*------------CONTACTO*/
+.contacto{
+    background-image: url(./Images/logox.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contacto__uno{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+}
+.contacto__dos{
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+ }
+.contacto__{
+    background-color: rgb(0, 119, 128, 0.5);
+    background-image: url(./Images/logox.png);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 5px;
+}
+.contacto__section h2{
+    text-align: center;
+    color: rgb(0, 128, 255);
+    text-decoration: underline;
+    height: 100%;
+    width: 100%;
+}
+.contacto__div{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 162, 0);
+    height: 80px;
+}
+
+/*Servicios*/
+.servicios_img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(../Encomiendas/Images/embalaje-caja-papel-concepto-entrega.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #FFFFFF;
+}
+.servicios_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.service__p{
+    height: 30%;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+/* index Mobile*/
+
+@media only screen and (max-width:500px) {
+    body {
+        background-color: red;
+    }
+
+header{
+    flex-direction: column;
+
+}
+.navbar{
+    flex-direction: column;
+}
+nav ul{
+    width: 100%;
+    flex-direction: column;
+}
+.flex__one_  {
+
+    flex-direction: column;
+}
+.flex__one_ ul a{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+header a{
+    font-size: 1.5rem;
+}
+
+    /*index*/
+.index__tittle{
+        flex-direction: column;
+    }
+.index__tittle p{
+        font-size: 1rem;
+    }
+.index__tittle h1{
+        flex-direction: column;
+        font-size: 2rem;
+    }
+.index__tittle {
+        font-size: 1rem;
+    }
+.carrusel__ {
+        flex-direction: column;
+    }
+.radius__img{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    /*-----------FOOTER Responsive*/
+.map .maps .ultimate{
+        flex-direction: column;
+    }
+.maps__div .maps__img {
+        flex-direction: column;
+    }
+.fieldset__two {
+        flex-direction: column;
+    }
+.maps__div h4 p{
+        flex-direction: column;
+        
+    }
+.map__ .maps {
+        flex-direction: column;
+    }
+.main_tittle h1{
+        text-align: center;
+        text-align: center;
+    }
+    /*---------------Finish Fotter Responsive*/
+
+    /*Nosotros Mobile Responsive*/
+
+    /*@media only screen and (max-width:500px) {
+        body {
+            background-color: red;
+        } */
+    
+header{
+        flex-direction: column;
+    
+    }
+.navbar{
+        flex-direction: column;
+    }
+nav ul{
+        width: 100%;
+        flex-direction: column;
+    }
+.flex__one_  {
+    
+        flex-direction: column;
+    }
+.flex__one_ ul a{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+header a{
+        font-size: 1.5rem;
+    }
+
+    /*Footer Nosotros*/
+.ultimate__{
+        flex-direction: column;
+    }
+
+    
+
+  }
+
+     
+
+  
