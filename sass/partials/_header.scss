@@ -1,46 +1,65 @@
-header{
+/*Header-----------------*/
 
-    background-color: rgba(0, 48, 96, 1);
+header {
+    background-color: $azul;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 2;
-    img{
+
+    img {
         height: 75px;
         width: 80px;
         margin: 5px 10px;
         border-radius: 3px;
+
+        &:hover {
+            background-color: $rojo;
+            color: $rojo;
+        }
     }
-    img:hover{
-        background-color: rgb(255, 72, 0);
-        color: rgb(255, 72, 0);
-    }
-    ul{
-        background-color: #ef233c;
-        height: 40%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    ul {
+        background-color: $rojo;
+        height: 47%;
         font-size: 22px;
         list-style: none;
         display: flex;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: $font;
         justify-content: space-evenly;
         align-items: center;
         margin-bottom: 0.1%;
-        padding: 0%
-        li {
-            padding: 5px 10px;
-            border: solid 1px; color: rgba(0, 48, 96, 1); 
-        
+        padding: 0%;
+    }
+
+    li {
+        padding: 5px 10px;
+        border: solid 1px;
+        color: $azul;
+
+        &:hover {
+            background-color: $aqua;
         }
     }
-    nav a{
-        color: rgb(255, 255, 255);
+
+    a {
+        color: $blanco;
         text-decoration: none;
         font-weight: bold;
-        a:hover{
-            color: rgb(255, 0, 0);
-        }
 
+        &:hover {
+            color: $rojo;
+        }
+    }
 }
- }
+
+/*FINISH HEADER----------------------*/

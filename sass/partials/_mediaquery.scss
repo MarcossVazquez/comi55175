@@ -1,0 +1,203 @@
+/*RESPONSIVE--------------------------------*/
+
+/* index Mobile*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: $rojo;
+    }
+
+    /*HEADER INDEX*/
+
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .index__tittle {
+        width: 100%;
+        flex-direction: column;
+
+        ul a {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 100%;
+        }
+    }
+
+    header a {
+        font-size: 1.5rem;
+    }
+
+    /*index*/
+
+    .index__tittle {
+        flex-direction: column;
+        text-align: center;
+
+        p {
+            font-size: 1rem;
+        }
+
+        h1 {
+            flex-direction: column;
+            font-size: 2rem;
+        }
+
+        font-size: 1rem;
+    }
+
+    .carrusel__home {
+        flex-direction: column;
+    }
+
+    .carrusel__ {
+        flex-direction: column;
+        width: 95.5%;
+    }
+
+    .radius__img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Servicios-----*/
+
+    .service__p {
+        line-height: 100%;
+    }
+
+    .services__two {
+        font-size: 0.88em;
+    }
+
+    /*INDEX GRID*/
+
+    .main_tittle h1 {
+        text-align: center;
+        text-align: center;
+    }
+
+    .contenedor-grid {
+        grid-template-rows: 200px 230px 150px 230px;
+        grid-template-columns: 90%;
+        grid-template-areas: "texto1" "img1" "texto2" "img2";
+        background-color: rgba(255, 255, 255, 0.568);
+    }
+
+    .grid-texto-1,
+    .grid-texto-2 {
+        color: $blanco;
+    }
+
+    .contenedor-grid {
+        img {}
+
+        p {
+            text-align: justify;
+            margin: 0px;
+            color: $blanco;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+    }
+
+    /*-----------MAPS Responsive*/
+
+    .map .maps .ultimate {
+        flex-direction: column;
+    }
+
+    .maps__div {
+
+        .maps__img,
+        h4 p {
+            flex-direction: column;
+        }
+    }
+
+    .map__ .maps {
+        flex-direction: column;
+    }
+
+    /*Contacto----*/
+
+    .contacto {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacto__section {
+        flex-direction: column;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .contacto__uno {
+        flex-direction: column;
+        color: $blanco;
+    }
+
+    .contacto__div {
+        flex-direction: column;
+        font-size: 1rem;
+
+        p {
+            flex-direction: column;
+        }
+    }
+
+    .image-contact {
+        flex-direction: row;
+
+        img:hover {
+            background-color: $blanco;
+        }
+    }
+
+    .p_contact {
+        flex-direction: row;
+        font-size: 1rem;
+    }
+
+    iframe,
+    .nosotros__main {
+        flex-direction: column;
+    }
+
+    /*NOSOTROS*/
+
+    .nosotros__parrafo {
+        flex-direction: column;
+
+        img {
+            width: 300px;
+        }
+    }
+
+    /*Footer------------------*/
+
+    .ultimate__ {
+        flex-direction: column;
+    }
+
+    fieldset {
+        &.fieldset__two {
+            flex-direction: column;
+        }
+
+        flex-direction: column;
+    }
+
+    .footer__logo {
+        flex-direction: column;
+    }
+}
+
+/*RESPONSIVE FINISH--------------------------------*/
